@@ -6,12 +6,13 @@ Proyecto simple de como implementar un Drawer(Menú lateral) en flutter.
 
 Al desarrollar una aplicación que tiene muchas pantallas para acceder a ellas por medio de pestañas, iconos o botones de la pantalla principal, es muy común utilizar un Drawer que se encarga de organizar de forma vertical ya sea en la parte izquierda o derecha de la pantalla, en la cual se puede acceder normalmente deslizando el contenido de la pantalla desde el borde del teléfono hacia el centro o simplemente tocando un botón de tipo hamburguesa.
 
-## ¿En qué situaciones es adecuado su uso?
+## ¿En qué situaciones es adecuado su uso?
+
 Yo recomiendo utilizar el Drawer si la aplicación tiene más de 5 módulos o pantallas, o si por motivos de espacio se requiere que utilizar toda la pantalla. En aplicaciones que usan Material Design, hay dos opciones principales para la navegación: tabs y drawers. Cuando no hay suficiente espacio para visualizar los tabs, los drawers proporcionan una alternativa práctica.
 
 ## ¿Que me parece interesante?
 
-Personalmente elegí el widget porque es ampliamente utilizado como un elemento de navegación en las aplicaciones móviles. Adicional le genera orden a la aplicación, facilidad al usuario en la visualización simultanea del menú y la rápida navegación entre contenidos. Debido al gran uso que se le da a un dispositivo móvil, se ha incrementado la necesidad de tener una aplicaciones móviles cada vez más robustas por parte de personas, negocios y empresas …etc., donde es muy útil el uso de este widget
+Personalmente elegí el widget porque es ampliamente utilizado como un elemento de navegación en las aplicaciones móviles. Adicional le genera orden a la aplicación, facilidad al usuario en la visualización simultanea del menú y la rápida navegación entre contenidos. Debido al gran uso que se le da a un dispositivo móvil, se ha incrementado la necesidad de tener una aplicaciones móviles cada vez más robustas por parte de personas, negocios y empresas …etc., donde es muy útil el uso de este widget.
 
 ## Proyecto Paso a paso
 
@@ -25,7 +26,7 @@ Este comando ya crea por defecto una base con la cual se puede comenzar a trabaj
 
 ### Agregar Drawer al Scaffold
 
-El Drawer debe inclúirse dentro del Scaffold que ya se creó automaticamente en el proyecto
+El Drawer debe incluirse dentro del Scaffold que ya se creó automáticamente en el proyecto
 
 ```dart
 Scaffold(
